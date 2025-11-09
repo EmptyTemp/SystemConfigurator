@@ -1,2 +1,10 @@
 # SystemConfigurator
-System Configurator - Java console application for managing monitoring system settings. Features ANSI-colored interface, input validation, and cross-platform config file handling.
+  Java console application for managing monitoring system settings. 
+## Features
+  Features ANSI-colored interface
+  Input validation
+  Cross-platform config file handling
+  Setting persistence
+## Usage
+  javac Configure.java
+  java Configure
