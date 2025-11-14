@@ -34,15 +34,40 @@ chmod +x start.sh
 ## Project Structure
 ```
 SystemConfigurator/
-└── configurator/
-    ├── src/main/java/com/empty/
-    │   └── Configure.java          # Main application
-    ├── target/
-    │   └── SystemConfigurator-1.0.jar  # Executable JAR
-    ├── pom.xml                     # Maven configuration
-    ├── start.bat                   # Windows startup script
-    └── start.sh                    # Linux/macOS startup script
+├── .idea/
+│   └── inspectionProfiles/
+│       └── Project_Default.xml
+├── configurator/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/
+│   │       │   └── com/
+│   │       │       └──empty/
+│   │       │          └── Configure.java          # Main application
+│   │       └── resources/
+│   │           └── simplelogger.properties
+│   ├── target/
+│   │   └── SystemConfigurator-1.0.jar  # Executable JAR
+│   ├── pom.xml                     # Maven configuration
+│   ├── start.bat                   # Windows startup script
+│   └── start.sh                    # Linux/macOS startup script
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
+### Key Directories
+- **`configurator/`** - Main application module with Maven structure
+- **`src/main/java/`** - Source code following Java package conventions  
+- **`src/main/resources/`** - Configuration files and application resources
+- **`target/`** - Build outputs and executable JAR
+- **`.idea/inspectionProfiles/`** - IDE code inspection settings
+### Core files
+- **`Configure.java`** - Application entry point with SQLite database integration
+- **`pom.xml`** - Maven build configuration and dependencies
+- **`simplelogger.properties`** - SLF4J logging configuration
+- **`start.bat/start.sh`** - Cross-platform launch scripts
+- **`SystemConfigurator-1.0.jar`** - Self-contained executable
+- **`Project_Default.xml`** - IDE inspection profile for clean code
 ## Configuration Settings
 Manages three core system thresholds:
 - CPU Threshold (50-100%) - CPU usage monitoring limit
