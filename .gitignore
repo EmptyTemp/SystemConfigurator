@@ -25,3 +25,8 @@ replay_pid*
 
 target/
 !configurator/target/SystemConfigurator-1.0.jar
+
+# IDEA
+.idea/*
+!.idea/inspectionProfiles/
+!.idea/inspectionProfiles/Project_Default.xml

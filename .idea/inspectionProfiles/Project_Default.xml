@@ -1,0 +1,22 @@
+<component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+        <option name="myName" value="Project Default" />
+
+        <!-- Disable ALL SQL inspections -->
+        <inspection_tool class="SqlNoDataSourceInspection" enabled="false" />
+        <inspection_tool class="SqlDialectInspection" enabled="false" />
+        <inspection_tool class="SqlResolveInspection" enabled="false" />
+
+        <!-- Disable unnecessary Java inspections -->
+        <inspection_tool class="AutoCloseableResource" enabled="false" />
+        <inspection_tool class="UNUSED_IMPORT" enabled="false" />
+        <inspection_tool class="FieldCanBeLocal" enabled="false" />
+        <inspection_tool class="CanBeFinal" enabled="false" />
+
+        <!-- For record classes -->
+        <inspection_tool class="RecordCanBeClass" enabled="false" />
+
+        <!-- Disable spelling checks -->
+        <inspection_tool class="SpellCheckingInspection" enabled="false" />
+    </profile>
+</component>
