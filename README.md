@@ -5,11 +5,9 @@
 - **Cross-Platform** - Works on Windows and Linux  
 - **ANSI-Colored Interface** - Rich console experience
 - **Input Validation** - Type-safe validation with meaningful error messages
-- **Professional Architecture** - Maven-based build system
+- **Architecture** - Maven-based build system
 - **Self-Contained** - Single JAR with all dependencies
-## Usage
-  javac Configure.java,
-  java Configure.
+- **One-Click Launch** - Simple startup scripts
 ## Technologies
 - **Java 17**
 - **SQLite Database**
