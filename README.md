@@ -21,13 +21,18 @@
 - **Option 1:** Double-click "start.bat"
 - **Option 2:** 
 cmd
+```cmd
 cd configurator
 start.bat
+```
 ### Linux/macOS:
+```bash
 cd configurator
 chmod +x start.sh
 ./start.sh
+```
 ## Project Structure
+```
 SystemConfigurator/
 └── configurator/
     ├── src/main/java/com/empty/
@@ -37,6 +42,7 @@ SystemConfigurator/
     ├── pom.xml                     # Maven configuration
     ├── start.bat                   # Windows startup script
     └── start.sh                    # Linux/macOS startup script
+```
 ## Configuration Settings
 Manages three core system thresholds:
 - CPU Threshold (50-100%) - CPU usage monitoring limit
@@ -61,5 +67,5 @@ Manages three core system thresholds:
 - Monitoring service for metric collection
 - Web dashboard with real-time graphs
 - Alerting system based on thresholds
-## Contributing
-This project is part of a learning journey to Java development. Feedback and suggestions are welcome!
+## P.S.
+A self-initiated project to practice Java and software architecture. Feedback and suggestions are welcome!
