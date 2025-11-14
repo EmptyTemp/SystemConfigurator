@@ -24,4 +24,4 @@ hs_err_pid*
 replay_pid*
 
 target/
-!configurator/target/configurator-1.0.jar
+!configurator/target/SystemConfigurator-1.0.jar
